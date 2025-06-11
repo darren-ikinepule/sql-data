@@ -144,3 +144,17 @@
 // to convert both the column and the search pattern
 //  to the same case before performing the LIKE comparison. 
 //  There is no direct ILIKE operator in SQLite.
+ 
+
+// SELECT
+//     l.location_id,
+//     l.street_address,
+//     l.city,
+//     l.state_province,
+//     c.country_name
+// FROM
+//     departments d
+// NATURAL JOIN
+//     locations l
+// NATURAL JOIN
+//     countries c;
